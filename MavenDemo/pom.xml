@@ -15,15 +15,17 @@
   <build>
   	<plugins>
   		<plugin>
-  		<artifactId>maven-jar-plugin</artifactId>
-  		<configuration>
-  			<archive>
-  				<manifest>
-  					<MainClass>MavenDemoo.CalculatorApp</MainClass>
-  				</manifest>
-  			</archive>
-  		</configuration>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-jar-plugin</artifactId>
+  			<configuration>
+  				<archive>
+  					<manifest>
+  						<mainClass>ch.bbw.calculatorApp</mainClass>
+  					</manifest>
+  				</archive>
+  			</configuration>
   		</plugin>
   	</plugins>
   </build>
+  
 </project>

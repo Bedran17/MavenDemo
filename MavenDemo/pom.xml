@@ -15,12 +15,11 @@
   <build>
   	<plugins>
   		<plugin>
-  			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-jar-plugin</artifactId>
   			<configuration>
   				<archive>
   					<manifest>
-  						<mainClass>ch.bbw.calculatorApp</mainClass>
+  						<mainClass>ch.bbw.CalculatorApp</mainClass>
   					</manifest>
   				</archive>
   			</configuration>

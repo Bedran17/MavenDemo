@@ -11,4 +11,19 @@
   	<version>4.12</version>
   </dependency>
   </dependencies>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  		<artifactId>maven-jar-plugin</artifactId>
+  		<configuration>
+  			<archive>
+  				<manifest>
+  					<MainClass>MavenDemoo.CalculatorApp</MainClass>
+  				</manifest>
+  			</archive>
+  		</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
